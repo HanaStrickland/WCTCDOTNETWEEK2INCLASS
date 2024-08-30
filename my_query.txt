@@ -1,0 +1,4 @@
+SELECT DISTINCT airing_id, channel_name, daypart_name
+FROM ads
+LEFT JOIN airings
+ON ads.adid = airings.adid
